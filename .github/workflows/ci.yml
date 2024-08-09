@@ -68,7 +68,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: san99tiago/fastapi-docker-github-actions
+          images: xxond/fastapi-docker-github-actions
 
       - name: Login to Docker Hub
         if: github.event_name != 'pull_request'
